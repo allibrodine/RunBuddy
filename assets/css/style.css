@@ -144,18 +144,7 @@ section {
 
 /* Hero Style End */
 
-.intro p {
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center; 
-}
-
-.steps {
-    background: #fce138;
-}
+/* Section Title Styles Start */
 
 .section-title {
     font-size: 55px;
@@ -175,6 +164,33 @@ section {
     border-color: #39a6b2;
 }
 
+/* What We Do styles */
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+/* What You Do Styles */
+.steps {
+    background: #fce138;
+}
+
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .step h3 {
     color: #024e76;
     font-size: 46px;
@@ -183,6 +199,9 @@ section {
 
 .step-info {
     flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .step-text p {
@@ -207,17 +226,6 @@ section {
 
 .step-img img {
     max-width: 100%;
-}
-
-.step {
-    margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
-    border-bottom: 1px solid #39a6b2;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .trainer {
